@@ -16,6 +16,8 @@ The dataset is split into training and testing sets, ensuring that the sentiment
 ### Feature Extraction:
 The text data is transformed into numerical features using TF-IDF vectorization.
 Numeric columns like audienceScore and runtimeMinutes are scaled using the Min-Max scaler.
+<img width="722" alt="Screenshot 2025-01-24 at 2 08 02 PM" src="https://github.com/user-attachments/assets/c0780911-ba7c-4107-b14f-af60f7ca8add" />
+
 
 ### Model Building:
 A Logistic Regression model is used to predict the sentiment of the movie reviews.
@@ -50,6 +52,9 @@ To run this project, you need the following Python libraries:
 # Results
 - The model achieves an accuracy of 84% on the training data and 80% on the test data.
 - The model performs well on the positive sentiment class, with high recall, while the negative class has slightly lower recall, indicating the presence of class imbalance in the data.
+
+  <img width="496" alt="Screenshot 2025-01-24 at 2 09 12 PM" src="https://github.com/user-attachments/assets/99639a40-bd9c-4729-88b6-76d0d67a7493" />
+
 
 # Future Work
 - Experiment with more advanced models such as Random Forest, XGBoost, or Neural Networks to potentially improve performance.
