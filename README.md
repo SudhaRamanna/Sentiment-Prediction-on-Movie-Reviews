@@ -28,3 +28,33 @@ Precision-Recall curves and ROC curves are plotted to visually assess the model 
 ### Performance:
 The model achieves an accuracy of approximately 84% on the training set and 80% on the test set.
 F1-micro score for training and test data is also provided to evaluate model performance in class imbalance scenarios.
+
+# Requirements
+To run this project, you need the following Python libraries:
+- **pandas**
+- **scikit-learn**
+- **numpy**
+- **matplotlib**
+- **seaborn**
+- **nltk**
+- **scipy**
+
+# Evaluation Metrics
+- **Accuracy:** Proportion of correct predictions.
+- **Precision:** The proportion of positive reviews correctly predicted among all predictions of positive sentiment.
+- **Recall:** The proportion of actual positive reviews correctly predicted among all actual positive reviews.
+- **F1-Score:** The harmonic mean of precision and recall.
+- **Confusion Matrix:** A summary of prediction results, showing true positive, true negative, false positive, and false negative counts.
+- **ROC-AUC:** Receiver Operating Characteristic and Area Under Curve, measuring the model's ability to distinguish between classes.
+
+# Results
+- The model achieves an accuracy of 84% on the training data and 80% on the test data.
+- The model performs well on the positive sentiment class, with high recall, while the negative class has slightly lower recall, indicating the presence of class imbalance in the data.
+
+# Future Work
+- Experiment with more advanced models such as Random Forest, XGBoost, or Neural Networks to potentially improve performance.
+- Tune hyperparameters using GridSearchCV or RandomizedSearchCV for better results.
+- Explore other feature extraction techniques, such as Word2Vec or BERT embeddings.
+
+# Contributing
+If you'd like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request. Please ensure that your code adheres to the existing structure and is well-documented.
